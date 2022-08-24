@@ -1,4 +1,15 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: true
+  transpileDependencies: [
+    'vuetify'
+  ],
+  // project deployment base
+  publicPath: '/chart-demo/',
+  // where to output built files
+  outputDir: 'dist',
+  // where to put static assets (js/css/img/font/...)
+  assetsDir: 'chart_demo/tools',//assetsDir: 'swap-attachment',
+  // filename for index.html (relative to outputDir)
+  indexPath: 'index.html'
+
 })

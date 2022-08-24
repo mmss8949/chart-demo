@@ -1,0 +1,39 @@
+{
+  "labels": [
+    "製造業",
+    "批發及零售業",
+    "住宿及餐飲業",
+    "專業、科學及技術服務業",
+    "醫療保健社會工作服務業"
+  ],
+  "datasets": [
+    {
+      "label": "101年",
+      "data": [
+        27.4,
+        16.6,
+        6.9,
+        3.2,
+        3.9
+      ],
+      "backgroundColor": "rgb(31, 119, 180,0.3)",
+      "borderColor": "rgb(31, 119, 180,1.0)",
+      "pointBorderWidth": 1,
+      "borderWidth": 2
+    },
+    {
+      "label": "110年",
+      "data": [
+        26.4,
+        16.4,
+        7.3,
+        3.4,
+        4.3
+      ],
+      "backgroundColor": "rgb(255, 127, 14,0.3)",
+      "borderColor": "rgb(255, 127, 14,1.0)",
+      "pointBorderWidth": 1,
+      "borderWidth": 2
+    }
+  ]
+}
